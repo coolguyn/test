@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 	<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>Medico - Homepage (Main Layout)</title>  
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+	<!-- Smallipop CSS - Tooltips -->
+	<link rel="stylesheet" href="plugins/smallipop/css/contrib/animate.min.css" type="text/css" media="all" title="Screen" />
+	<link rel="stylesheet" href="plugins/smallipop/css/jquery.smallipop.css" type="text/css" media="all" title="Screen" />
+
+	<!-- Default CSS -->
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/foundation.css" />
+	<link rel="stylesheet" href="css/fgx-foundation.css" />
+	<!--[if IE 8]>
+		<link rel="stylesheet" href="css/ie8-grid-foundation-4.css" />
+		
+	<![endif]-->
+
+	<!-- Font Awesome - Retina Icons -->
+	<link rel="stylesheet" href="plugins/fontawesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/nivo-slider.css" />
+	<link rel="stylesheet" href="css/themes/default/default.css" />
+	<link rel="stylesheet" href="css/datepicker/metallic.css" />
+	<!-- Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css" />
+
+	<!-- Included JS Files -->
+	<script src="js/vendor/jquery.js"></script>
+	<script src="js/vendor/custom.modernizr.js"></script>
+</head>
+<body>
+
+<!-- Begin Main Wrapper -->
+<div class="main-wrapper">
+	<!-- Main Navigation -->  
+	<header class="row main-navigation">
+		<div class="large-3 columns">	
+			<a href="index.html" id="logo"><img src="images/logo.png" alt="Medico Logo" /></a>
+		</div>
+		<div class="large-9 columns">			
+			<nav class="top-bar">
+				<ul class="title-area">
+				  <!-- Title Area -->
+				  <li class="name"></li>
+				  <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+				  <li class="toggle-topbar menu-icon"><a href="#"><span>Main Menu</span></a></li>
+				</ul>
+
+				<section class="top-bar-section">
+					<!-- Left Nav Section -->
+					  <ul class="right">
+                        <li><a href="#">Home</a></li>
+						<li class="has-dropdown"><a href="#">Parts and Services</a>
+						  <ul class="dropdown">
+                          	<li><a href="#">Equipment Maintenance</a></li>
+							<li><a href="#">Replacement Parts</a></li>
+							<li><a href="#">Installations/Upgrade</a></li>
+							<li><a href="#">Training</a></li>
+							<li><a href="#">Site Management</a></li>
+							<li><a href="#">Coldhead & Magnet Services</a></li>
+						  </ul>
+						</li>
+						<li><a href="#">Equipment</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">About Us</a></li>
+						<li><a href="#">Contact</a></li>
+					  </ul>
+					  <!-- End Left Nav Section -->					 
+				</section>
+			</nav>
+		</div>
+	</header>
+	<!-- Start Main Slider -->
+</div>
+
+<div class="slider-wrapper theme-default">
+    <div id="slider" class="nivoSlider">
+		<img src="images/demo/slider/1.jpg" data-thumb="images/demo/news/1.jpg" alt="" title="#caption1" />
+		<img src="images/demo/slider/2.jpg" data-thumb="images/demo/news/2.jpg" alt="" title="#caption2"  />
+		<img src="images/demo/slider/3.jpg" data-thumb="images/demo/news/3.jpg" alt="" title="#caption3" />
+	</div>
+	
+    <div class="main-wrapper app-wrapper">
+    	
+		<div class="appointment-block grey-bg">            
+            <div class="row">
+                <div class="large-3 columns red">
+                    <p>Make an Enquiry</p>
+                    &nbsp;<!-- Put appointemnt label here -->
+                </div>
+                <div class="large-9 columns">
+                    <form method="POST" action="#" id="appointment-contact-form">
+                        <div class="row">
+                            <div class="large-3 columns">
+                                <input type="text" placeholder="Full Name" name="name" />
+                                <input type="text" placeholder="Phone Nomber" name="name" />
+                            </div>
+                            <div class="large-3 columns">
+                                <input type="text" placeholder="E-mail Address" name="name" />
+                                <input class="datepicker" type="text" placeholder="Appointment Date"  name="name" />
+                            </div>
+                            <div class="large-3 columns">
+                                <textarea cols="10" rows="15"  name="message" placeholder="Message"></textarea>
+                            </div>
+                            <div class="large-3 columns">
+                                <input type="submit" class="blue button radius" value="Make Enquiry" />
+                            </div>
+                        </div>
+                    </form>
+                </div>		
+            </div>
+		</div>   
+		<div class="clearfix"></div>
+	</div>			
+</div>	
+<!-- End Main Slider -->
+
+	<!-- Main Content -->
+<div class="main-wrapper">
+   	<div class="row main-content">
+        <div class="large-12 columns">
+			<div class="row">		
+				<div class="large-3 columns">
+					<div class="featured-block">
+						<a href="#">
+							<span class="icon-sitemap fblock-icon"></span>
+							<div class="fblock-content">
+								<p class="fblock-main">Exceptional <strong>Service</strong></p>
+								<p class="fblock-sub">Learn more</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="large-3 columns">
+					<div class="featured-block">
+						<a href="#">
+							<span class="icon-lightbulb fblock-icon"></span>
+							<div class="fblock-content">
+								<p class="fblock-main">Professional <strong>Installation</strong></p>
+								<p class="fblock-sub">Learn more</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="large-3 columns">
+					<div class="featured-block">
+						<a href="#">
+							<span class="icon-laptop fblock-icon"></span>
+							<div class="fblock-content">
+								<p class="fblock-main">Service <strong>Training</strong></p>
+								<p class="fblock-sub">Learn more</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="large-3 columns">
+					<div class="featured-block">
+						<a href="#">
+							<span class="icon-cogs fblock-icon"></span>
+							<div class="fblock-content">
+								<p class="fblock-main">Easy <strong>Customization</strong></p>
+								<p class="fblock-sub">Learn more</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer class="footer_wrapper">
+	<div class="row footer-part">
+		<div class="large-12 columns">
+			<div class="row">
+				<div class="large-3 columns">
+					<h4 class="footer-title">About Us</h4>
+					<div class="divdott"></div>
+					<img class="botlogo" src="images/botlogo.png" alt="" />
+					<div class="footer_part_content">
+						<p>Our mission is to amplify our customers satisfaction by providing innovative technology solutions powered by knowledge & experience</p>
+					</div>
+				</div>
+				<div class="large-3 columns">
+					<h4 class="footer-title">Latest Posts</h4>
+					<div class="divdott"></div>
+					<div class="footer_part_content">
+						<ul class="latest-posts">
+							<li>
+								Update: Our <a href="#" >QuickLinks</a> page is updated with Radiology Related Sites.
+								<div class="divline"><span></span></div>
+							</li>
+							<li>
+								New Discounts for our regular customers.
+								<div class="divline"><span></span></div>
+							</li>
+							<li>
+								Added New Products to our sales.
+								<div class="divline"><span></span></div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+
+				<div class="large-3 columns">
+					<h4 class="footer-title">Contact info</h4>
+					<div class="divdott"></div>
+					<div class="footer_part_content">
+						<p>WMS is an innovator in the medical imaging service field because of the wide array of customer-driven solutions we offer.  </p>
+						<ul class="about-info">
+							<li><i class="icon-home"></i><span>Blue Petal Solutions</span></li>
+							<li><i class="icon-phone"></i><span>9505552436</span></li>
+							<li><i class="icon-envelope"></i><a href="mailto:info@WMS.com">info@WMS.com</a></li>
+						</ul>
+						<ul class="social-icons">
+						<li><a href="#"><i class="icon-pinterest"></i></a></li>
+						<li><a href="#"><i class="icon-twitter"></i></a></li>
+						<li><a href="#"><i class="icon-facebook"></i></a></li>
+					</ul>
+					</div>
+				</div>
+					
+				<div class="large-3 columns"> 
+					<h4 class="footer-title">Quick Contact</h4>
+					<div class="divdott"></div>
+					<form method="POST" action="#" id="footer-contact-form">
+						<div class="footer_part_content">
+							<div class="row">
+								<div class="large-6 columns">
+									<input type="text" placeholder="Name"  name="name" />
+								</div>
+								<div class="large-6 columns">
+									<input type="text" placeholder="E-mail" name="email" />
+								</div>
+								<div class="large-12 columns">
+									<textarea cols="10" rows="15"  name="message" placeholder="Message"></textarea>
+								</div>
+								<div class="large-12 columns text-right">
+									<input type="submit" class="button" value="Send" name="send" />
+								</div>	
+							</div>
+						</div>
+					</form>
+				</div> 
+			</div>
+		</div>
+	</div>
+	
+	<div class="privacy footer_bottom">
+		<div class="footer-part">
+			<div class="row">
+				<div class="large-10 columns copyright">
+					<p >&copy; 2014 WMS, All Rights Reserved.</p>
+				</div>
+				<div class="large-2 columns">
+					<div id="back-to-top"><a href="#top"></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- carouFredSel plugin -->
+<script src="plugins/carouFredSel/jquery.carouFredSel-6.2.0-packed.js"></script>
+<script src="plugins/carouFredSel/helper-plugins/jquery.touchSwipe.min.js"></script>
+
+<!-- Scripts Initialize -->
+<script type="text/javascript" src="js/app-head-calls.js"></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>	
+<script type="text/javascript" src="js/datepicker.js"></script>	
+<script src="js/foundation.min.js"></script>
+<script>$(document).foundation();</script>  
+<!-- Smallipop JS - Tooltips -->
+<script type="text/javascript" src="plugins/smallipop/lib/contrib/prettify.js"></script>
+<script type="text/javascript" src="plugins/smallipop/lib/jquery.smallipop.js"></script>
+<script>
+/*jshint jquery:true */
+jQuery.noConflict();
+
+jQuery(window).load(function() {
+	"use strict";
+	jQuery('#slider').nivoSlider({ controlNav: false});	
+});
+jQuery(document).ready(function() {
+	"use strict";
+	jQuery('input.datepicker').Zebra_DatePicker();
+	// Carousel
+	jQuery("#carousel-type1").carouFredSel({
+		responsive: true,
+		width: '100%',
+		auto: false,
+		circular : false,
+		infinite : false, 
+			items: {visible: {min: 1,max: 4},
+		},
+		scroll: {
+			items: 1,
+			pauseOnHover: true
+		},
+		prev: {
+			button: "#prev2",
+			key: "left"
+		},
+		next: {
+			button: "#next2",
+			key: "right"
+		},
+		swipe: true
+	});
+	
+	jQuery(".work_slide ul").carouFredSel({
+		circular: false,
+		infinite: true,
+		auto: false,
+		scroll:{items:1},
+		items: {visible: {min: 3,max: 3}},
+		prev: {	button: "#slide_prev", key: "left"},
+		next: { button: "#slide_next",key: "right"}
+	});
+	jQuery("#testimonial_slide").carouFredSel({
+		circular: false,
+		infinite: true,
+		auto: false,
+		scroll:{items:1},
+		prev: {	button: "#slide_prev1", key: "left"},
+		next: { button: "#slide_next1",key: "right"}
+	});
+	
+	
+});  
+	
+</script>
+<!-- Initialize JS Plugins -->
+<script src="js/app-bottom-calls.js"></script>  
+
+<!-- End Main Wrapper -->
+</body>
+</html>
